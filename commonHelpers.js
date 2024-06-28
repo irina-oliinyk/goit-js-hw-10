@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-3cfb730f.js";import{f as o}from"./assets/vendor-2b44ac2e.js";const t={inpurBiblioteck:document.querySelector("#datetime-picker"),buttonSrart:document.querySelector("button")},r={enableTime:!0,time_24hr:!0,defaultDate:new Date,minuteIncrement:1,onClose(e){e[0].getTime()>Date.now()?(t.buttonSrart.disabled=!1,e[0].getTime()):(window.alert("Pleas choose a date in the future"),t.buttonSrart.disabled=!0),console.log(e[0])}};o(t.inpurBiblioteck,r);
+//# sourceMappingURL=commonHelpers.js.map
