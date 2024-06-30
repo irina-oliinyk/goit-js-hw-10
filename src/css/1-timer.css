@@ -51,13 +51,6 @@ button:hover {
    
 }
 
-button.inactive {
-    pointer-events: none;
-    background-color: aqua;
-    color: gray;
-}
-
-
 .timer {
     width: 346px;
     height: 72px;

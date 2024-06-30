@@ -39,7 +39,7 @@ const options = {
       if (selectedDates[0].getTime() > Date.now()) { 
         elements.buttonSrart.disabled = false;
         datumUser = selectedDates[0].getTime();
-        buttonSrart.classList.toggle('inactive');
+        
           
        }else {
         iziToast.show({
